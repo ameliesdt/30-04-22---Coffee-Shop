@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@600;700;800;900&family=Special+Elite&display=swap");
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* ====FONTS&COLORS==== */
+html {
+    font-family: "Special Elite";
+    background-color: white;
+}
+
+h2, h3, h4 {
+    font-family: "Exo";
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h1 {
+    color:white;
+}
+
+/* ====NAVIGATION==== */
+nav {
+    padding: 25px;
+    position:fixed;
+    min-width: 100%;
+    text-align: right;
+    background-color: white;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    margin-right:40px;
+}
+
+/* ====HEADER==== */
+header div {
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+#Header img {
+    margin-top: 250px;
+    height:20rem;
+}
+
+/* ====BRIDGES==== */
+/* ====BRIDGE 1==== */
+#Bridge1 {
+    height:100vh;
+    background-image: url("../img/bridge_1.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* ====BRIDGE 2==== */
+#Bridge2 {
+    height:100vh;
+    background-image: url("../img/bridge_2.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ====BRIDGE 3==== */
+#Bridge3 {
+    height:100vh;
+    background-image: url("../img/bridge_3.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* ====BRIDGE 4==== */
+#Bridge4 {
+    height:100vh;
+    background-image: url("../img/bridge_4.jpeg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ====MAIN==== */
+/* ====SECTION HELLO==== */
+.Hello {
+    background-image: url("../img/beans_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+}
+
+.Hello div {
+    display: inline-block;
+    text-align: left;
+    padding:70px;
+    width:25rem;
+    margin-top:30px;
+}
+
+.Hello h2 {
+    padding-bottom:10px;
+    font-size: 50px;
+    padding:10px;
+}
+
+/* ====SECTION OUR MENU==== */
+.OurMenu {
+    background-image: url("../img/cake_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.OurMenu h2 {
+    font-size: 50px;
+    padding:25px;
+}
+
+.OurMenu img {
+    height:40px;
+    padding:5px;
+}
+/* ====SECTION OUR MENU===
+/* ===DAILY BREWS=== */
+.OurMenu h3 {
+    padding:20px;
+    font-size: 30px;;
+}
+
+.OurMenu h4 {
+    padding:5px;
+}
+
+.OurMenu a {
+    color: black;
+}
+
+.OurMenu div:nth-of-type(2) {
+    border:1px solid black;
+    padding:10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.OurMenu div:nth-of-type(3) {
+    border:1px solid black;
+    padding:10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+}
+/* ====SECTION OUR MENU==== */
+/* ====HANDMADE COFFEES==== */
+.OurMenu div:nth-of-type(4) {
+    border:1px solid black;
+    padding:10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.OurMenu div:nth-of-type(5) {
+    border:1px solid black;
+    padding:10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+}
+/* ====SECTION OUR STORY==== */
+.OurStory div {
+    display: inline-block;
+    text-align: left;
+    padding:120px;
+    width:20rem;
+    margin-top:30px;
+    margin-left:260px;
+}
+
+.OurStory h2 {
+    padding-bottom: 10px;
+}
+
+.OurStory img {
+    height:200px;
+    display: inline-block;
+}
+
+/* ====SECTION CATERING SERVICE==== ==Bild muss noch nach unten== */
+.CateringService div {
+    background-image: url("../img/pie_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding:120px;
+    width:20rem;
+    margin-top:30px;
+    margin-left:260px;
+}
+
+.CateringService h2, p, a {
+    padding:10px;
+}
+
+.CateringService a {
+    text-decoration: none;
+    border:1px solid black;
+    padding:5px;
+    margin-left:10px;
+    color:black;
+}
+
+.CateringService img { 
+    height:200px;
+    display: inline-block;
+    margin-top:150px;
+    margin-left:300px;
+
+}
+
+/* =====SECTION OUR CAKES==== */
+.OurCakes div {
+    display:inline-block;
+}
+.OurCakes div:nth-of-type(1) img {
+    height:200px;
+}
+
+.OurCakes div:nth-of-type(2) {
+    width:20rem;
+    margin-top:30px;
+    margin-left:260px;
+    padding:40px;
+}
+
+.OurCakes h2, p, a {
+    padding:10px;
+}
+
+.OurCakes a {
+    text-decoration: none;
+    border:1px solid black;
+    padding:5px;
+    margin-left:10px;
+    color:black;
+}
+    
+/* ====FOOTER==== */
+footer {
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+}
+
+footer div {
+    width: 30px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+footer img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
